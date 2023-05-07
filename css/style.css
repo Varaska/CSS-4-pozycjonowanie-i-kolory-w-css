@@ -1,0 +1,135 @@
+.container {
+    
+    background-color: rgb(173, 118, 226);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    /*  flex-direction: column; */
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.item {
+    flex-basis: auto;
+    width: 100px;
+    height: 100px;
+    display: flexbox;
+    text-align: center;
+    /*     vertical-align: middle; */
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.round_item {
+    position: relative;
+    top:-300px;
+    left:1px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    /*  flex-direction: column; */
+    flex-wrap: wrap;
+    
+
+}
+
+.round {
+    flex-basis: auto;
+    width: 50px;
+    height: 50px;
+    display: flexbox;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* устанавливаем 50% для создания круга */
+    box-sizing: border-box;
+    /* учитываем границу в размерах элемента */
+    margin: 8.2%;
+   
+  
+}
+
+
+
+
+.item:nth-of-type(1) {
+    
+    
+    background-color: #fe0000;
+}
+
+.item:nth-of-type(2) {
+    background-color: #0000fe;
+}
+
+.item:nth-of-type(3) {
+    background-color: #008100;
+}
+
+.item:nth-of-type(4) {
+    background-color: #ffff00;
+}
+
+.item:nth-of-type(5) {
+    background-color: #000000;
+}
+
+.item:nth-of-type(6) {
+    background-color: #fea600;
+}
+
+.item:nth-of-type(7) {
+    background-color: #7f007e;
+}
+
+.item:nth-of-type(8) {
+    background-color: #818181;
+}
+
+.item:nth-of-type(9) {
+    background-color: #ffc0cc;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.round:nth-of-type(1) {
+    
+    
+    background-color: #ffc0cc;
+
+}
+.round:nth-of-type(2) {
+    background-color: #818181;
+}
+
+.round:nth-of-type(3) {
+    background-color: #820080 ;
+}
+.round:nth-of-type(4) {
+    background-color: #008100 ;
+}
+.round:nth-of-type(5) {
+    background-color:#fe0000 ;
+}
+.round:nth-of-type(6) {
+    background-color: #0000fe;
+
+}
+.round:nth-of-type(7) {
+    background-color:#fea600 ;
+}
+.round:nth-of-type(8) {
+    background-color: #ffff00;
+}
+.round:nth-of-type(9) {
+    background-color: #000000;
+}
